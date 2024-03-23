@@ -1,0 +1,10 @@
+
+
+.side-nav {
+  height: 100vh;
+  color: #fff;
+}
+
+.side-nav-and-content-container {
+  display: flex;
+}

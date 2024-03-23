@@ -1,0 +1,26 @@
+.Dropdowns_btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+}
+
+.Dropdowns_btns .btn-group {
+  margin: 2rem;
+}
+
+.Dropdowns_btns .btn-group button {
+  padding: 1rem;
+  width: 12rem;
+}
+
+.btn-group label {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+#btn-select{
+  margin-left: 20px;
+}

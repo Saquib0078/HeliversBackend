@@ -1,0 +1,38 @@
+.teams-list-container {
+  width: 21rem;
+  display: flex;
+  flex-direction: column;
+}
+.form-label {
+  margin: 10px;
+}
+
+.team-item {
+  border: 1px solid #fff;
+  padding: 1rem;
+  margin: 5px 5px 10px 10px;
+  cursor: pointer;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.active {
+  background-color: #e8e6c3;
+  color: black;
+}
+.team-item:hover {
+  border: 1px solid #157347;
+}
+.form-control {
+  margin: 10px;
+  margin-bottom: 15px;
+}
+#create-btn {
+  margin: 10px;
+}
+
+.mb-3 {
+  margin: 10px;
+  font-size: 2rem;
+  margin-left: 20px;
+}

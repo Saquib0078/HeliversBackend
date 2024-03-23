@@ -1,0 +1,65 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+
+.user-list-container {
+  background-color: #212529;
+  padding: 5rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination {
+  margin-top: 20px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#pageNumber {
+  margin: 10px;
+  color: white;
+}
+
+.gender {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.badge {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.card-img-top {
+  width: 5rem;
+  height: 5rem;
+}
